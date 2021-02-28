@@ -1030,6 +1030,8 @@ ul.ms_lang_box:after {
 /*====Recent Music Slider====*/
 .ms_rcnt_slider {
   position: relative;
+  margin-bottom: 0px;
+  height: 420px;
 }
 
 .ms_heading {
@@ -1677,11 +1679,12 @@ ul.more_option li a:hover .opt_icon .icon_share {
   margin-bottom: 9px;
   display: inline-block;
   width: 100%;
+  height: 110px;
 }
 
 .ms_release_slider.swiper-container {
   padding-top: 6px;
-  height: 100px;
+  height: 80px;
 }
 
 .ms_releases_wrapper .ms_divider {
@@ -1865,6 +1868,7 @@ span.ovrly_text2 {
 
 .ms_radio_slider {
   position: relative;
+  height: 300px;
 }
 
 /*====Footer Css Start====*/
@@ -1985,6 +1989,7 @@ h1.footer_title:after {
 }
 
 .footer_box.footer_contacts ul.foo_con_info li .foo_con_icon {
+  padding-top: 10px;
   width: 40px;
   height: 40px;
   display: inline-block;

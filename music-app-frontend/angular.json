@@ -25,9 +25,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/style.css"
+              "src/assets/css/style.css",
+              "src/assets/js/plugins/player/volume.css"
             ],
             "scripts": [
+              "src/assets/js/plugins/player/volume.js",
+              "src/assets/js/plugins/player/audio-player.js",
+              "src/assets/js/plugins/player/jplayer.playlist.min.js",
+              "src/assets/js/plugins/player/jquery.jplayer.min.js"
             ]
           },
           "configurations": {
