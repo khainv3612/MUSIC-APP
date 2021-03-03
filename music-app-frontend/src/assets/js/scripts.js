@@ -130,7 +130,8 @@ $(function () {
           t === $(this).attr("href") && $(this).addClass("active")
         })
       }).fail(function (t, s) {
-        return alert("Something went wrong. Please try again"), !1
+        $("#loading").fadeOut(1e3)
+        // return alert("Something went wrong. Please try again"), !1
       })
     }, initTheme: function () {
       $("body").themeSettings()
@@ -212,9 +213,11 @@ $(function () {
   };
   var t = $("body"), s = $(".header-backdrop"), e = $(".sidebar-backdrop");
   $(document).ready(AppConfig.init)
-}), $(window).on("load", function () {
+})
+  , $(window).on("load", function () {
   $("#loading").fadeOut(1e3)
-}), $("#wrapper").on("scroll", function () {
+})
+  , $("#wrapper").on("scroll", function () {
   $("#header").toggleClass("scrolled", $(this).scrollTop() > 80)
 });
 var AudioPlayer = AudioPlayer || {};
