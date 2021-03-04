@@ -247,9 +247,9 @@
             <option value="4">Louder</option>
           </select></div>
           <h5 class="mt-4 mb-3">Theme</h5>
-          <div class="d-flex align-items-center"><label for="theme" class="setting-label pr-2">Night
+          <div class="d-flex align-items-center"><label for="theme" class="setting-label pr-2">Dark
             mode</label>
-            <div class="switch switch-primary ml-auto"><input type="checkbox" id="theme"> <label
+            <div class="switch switch-primary ml-auto"><input type="checkbox" id="theme" (change)="changDarkMode()"> <label
               for="theme"></label></div>
           </div>
           <h5 class="mt-4 mb-3">History</h5>
